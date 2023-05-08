@@ -1,0 +1,29 @@
+caption {
+    caption-side: top;
+}
+
+.table-dark {
+    --bs-table-bg: #0d63fd;
+}
+
+#about {
+    background-color: #bee3f6;
+    // border-radius: 80px 80px;
+    margin-top: 100px;
+    padding: 20px ;
+  }
+
+@media (max-width: 768px) { 
+    section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#about {
+    margin-top: 50px;
+    border-radius: 80px 80px;
+  }
+
+}
+
+
